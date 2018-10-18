@@ -310,8 +310,12 @@ class HPopup: UIView {
             }
             
             switch showType{
-            case .none: break
-                
+            case .none:
+                containerView.alpha = 1.0
+                containerView.transform = CGAffineTransform.identity
+                containerView.frame = finalContainerFrame
+                completionBlock(true)
+                break
             case .fadeIn :
                 containerView.alpha = 0.0
                 containerView.transform = CGAffineTransform.identity

@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let alterView : HAlterView = HAlterView.alterView()
+    let popView : HPopContentView = HPopContentView.popContentView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func showClick(_ sender: UIButton) {
-        alterView.show(inView: self.view)
+      
         
     }
 }
