@@ -12,9 +12,9 @@
 		6E1CEC9A21789188008D0913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1CEC9821789188008D0913 /* Main.storyboard */; };
 		6E1CEC9C21789189008D0913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1CEC9B21789189008D0913 /* Assets.xcassets */; };
 		6E1CEC9F21789189008D0913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1CEC9D21789189008D0913 /* LaunchScreen.storyboard */; };
-		6E1CECA8217891D7008D0913 /* HPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1CECA7217891D7008D0913 /* HPopup.swift */; };
 		6E1CECAB217891FE008D0913 /* HAlterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1CECA9217891FE008D0913 /* HAlterView.swift */; };
 		6E1CECAC217891FE008D0913 /* HAlterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1CECAA217891FE008D0913 /* HAlterView.xib */; };
+		6E1CECAF21789692008D0913 /* HPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1CECAE21789692008D0913 /* HPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		6E1CEC9B21789189008D0913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E1CEC9E21789189008D0913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E1CECA021789189008D0913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E1CECA7217891D7008D0913 /* HPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPopup.swift; sourceTree = "<group>"; };
 		6E1CECA9217891FE008D0913 /* HAlterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAlterView.swift; sourceTree = "<group>"; };
 		6E1CECAA217891FE008D0913 /* HAlterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAlterView.xib; sourceTree = "<group>"; };
+		6E1CECAE21789692008D0913 /* HPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		6E1CEC8821789188008D0913 = {
 			isa = PBXGroup;
 			children = (
-				6E1CECA6217891D7008D0913 /* HPopup */,
+				6E1CECAD21789692008D0913 /* HPopup */,
 				6E1CEC9321789188008D0913 /* HPopupDemo */,
 				6E1CEC9221789188008D0913 /* Products */,
 			);
@@ -73,13 +73,12 @@
 			path = HPopupDemo;
 			sourceTree = "<group>";
 		};
-		6E1CECA6217891D7008D0913 /* HPopup */ = {
+		6E1CECAD21789692008D0913 /* HPopup */ = {
 			isa = PBXGroup;
 			children = (
-				6E1CECA7217891D7008D0913 /* HPopup.swift */,
+				6E1CECAE21789692008D0913 /* HPopup.swift */,
 			);
-			name = HPopup;
-			path = ../HPopup;
+			path = HPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +156,7 @@
 				6E1CEC9721789188008D0913 /* ViewController.swift in Sources */,
 				6E1CEC9521789188008D0913 /* AppDelegate.swift in Sources */,
 				6E1CECAB217891FE008D0913 /* HAlterView.swift in Sources */,
-				6E1CECA8217891D7008D0913 /* HPopup.swift in Sources */,
+				6E1CECAF21789692008D0913 /* HPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

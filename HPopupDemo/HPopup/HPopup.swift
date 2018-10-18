@@ -226,7 +226,7 @@ class HPopup: UIView {
             let frontToBackWindows = UIApplication.shared.windows
             for window in frontToBackWindows
             {
-                if window.windowLevel == .normal
+                if window.windowLevel.rawValue == UIWindow.Level.normal.rawValue
                 {
                     window.addSubview(self)
                     break
