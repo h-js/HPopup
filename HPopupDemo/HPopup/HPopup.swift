@@ -50,27 +50,6 @@ class HPopup: UIView {
         case dimmed = 2
     }
     
-    //HPopupHorizontalLayout : 控制弹框水平位置
-    enum HPopupHorizontalLayout : Int {
-        case custom = 0
-        case left = 1
-        case leftOfCenter = 2
-        case center = 3
-        case rightOfCenter = 4
-        case right = 5
-    }
-    
-     //HPopupHorizontalLayout : 控制弹框垂直位置
-    enum HPopupVerticalLayout : Int {
-        case custom = 0
-        case top = 1
-        case aboveCenter = 2
-        case center = 3
-        case belowCenter = 4
-        case bottom = 5
-    }
-    
-    
     //HPopupLayout : 弹框位置结构体
     enum HPopupLayout : Int {
         case cneter = 0
